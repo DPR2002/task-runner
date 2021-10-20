@@ -1,15 +1,169 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <title>learning-git-3</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="layout">
-        </h1>
-            <img src="https://uploads.kodilla.com/bootcamp/fer/03.git/zadanie-golden.png" alt="layout">
-        </h1>
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Projekt 4</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Signika:wght@400;700&display=swap"
+			rel="stylesheet"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+        <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mobile-menu">  
+                <ul class="navbar-nav">
+                    <li><a class="nav-link" href="#">Clothing</a></li>
+                    <li><a class="nav-link" href="#">Clothing</a></li>
+                    <li><a class="nav-link" href="#">Lingerie</a></li>
+                    <li><a class="nav-link" href="#">Shoes</a></li>
+                    <li><a class="nav-link" href="#">Accesories</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="title py-5">
+            <div id="main-slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="https://images.pexels.com/photos/374044/pexels-photo-374044.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.png" alt="dog">
+                        <div class="carousel-caption">
+                            <h1>Welcome To Our Studio!</h1>
+                            <h2>IT'S NICE TO MEET YOU</h2>
+                            <a href="#" class="btn btn-primary">TELL ME MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<section class="items py-5">
+            <div class="container">
+                <div class="col-12">
+                    <h2><center>OUR PORTFOLIO</center></h2>
+                    <h3><center>Proin iaculis purus consequat sem cure.</h3></center>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://images.pexels.com/photos/2442888/pexels-photo-2442888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.png" class="card-img-top" alt="woman">
+                                        <div class="card-body">
+                                            <h4><center>Ebony & Ivoryer</h4>
+                                            <a href="#" class="btn-btn-light"><center>Branding<center></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://images.pexels.com/photos/8534249/pexels-photo-8534249.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.png" class="card-img-top" alt="woman">
+                                        <div class="card-body">
+                                            <h4><center>Smart Stationary</center></h4>
+                                            <a href="#" class="btn-btn-light"><center>Sprint Design</a>center></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://images.pexels.com/photos/5554655/pexels-photo-5554655.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.png" class="card-img-top" alt="woman">
+                                        <div class="card-body">
+                                            <h4><center>Clever Poster</center></h4>
+                                            <a href="#" class="btn-btn-light"><center>Sprint Design</center></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://images.pexels.com/photos/8947626/pexels-photo-8947626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.png" class="card-img-top" alt="woman">
+                                        <div class="card-body">
+                                            <h4><center>Vinyl Record</center></h4>
+                                            <a href="#" class="btn-btn-light"><center>Web Design</center></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://images.pexels.com/photos/930530/pexels-photo-930530.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260.png" class="card-img-top" alt="woman">
+                                        <div class="card-body">
+                                            <h4><center>Treehouse Template</center></h4>
+                                            <a href="#" class="btn-btn-light"><center>Branding</center></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="card-image">
+                                        <img src="https://images.pexels.com/photos/2058137/pexels-photo-2058137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260.png" class="card-img-top" alt="woman">
+                                        <div class="card-body">
+                                            <h4><center>Burned Logo</center></h4>
+                                            <a href="#" class="btn-btn-light"><center>Branding</center></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+		<section class="about">
+			<div class="container">
+				<h2><center>SERVICES</center></h2>
+				<div class="wrapper">
+					<div class="info">
+						<li><center><a href="#"><i class="fab fa-instagram"></i></a></center></li>
+						<p>Curabitur ornare</p>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+							quae impedit eius ducimus ut unde nostrum sit tempore! Provident,
+							ad!
+						</p>
+					</div>
+					<div class="info">
+					    <li><center><a href="#"><i class="fab fa-instagram"></i></a></center></li>
+						<p>Curabitur ornare</p>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+							quae impedit eius ducimus ut unde nostrum sit tempore! Provident,
+							ad!
+						</p>
+					</div>
+					<div class="info">
+						<li><center><a href="#"><i class="fab fa-instagram"></i></a></center></li>
+						<p>Curabitur ornare</p>
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+							quae impedit eius ducimus ut unde nostrum sit tempore! Provident,
+							ad!
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+        
+        <footer class="page-footer">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                <li><a href="#"><i class="fab fa-behance"></i>Behance</a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+            </ul>
+        </footer>
+	</body>
 </html>

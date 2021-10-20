@@ -1,3 +1,4 @@
+
 /*variables*/
 $color-one: orange;
 
@@ -160,7 +161,7 @@ section {
 			}
 
 			a {
-				color: orange;
+				color: $color-one;
 			}
 		}
 	}
